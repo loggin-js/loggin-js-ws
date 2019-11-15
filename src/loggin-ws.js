@@ -1,5 +1,5 @@
 const loggin = require('loggin-js');
-const WsNotifier = require('./src/ws-notifier');
+const WsNotifier = require('./ws-notifier');
 
 /**
  * @param {loggin} loggin 
@@ -10,3 +10,4 @@ function plugin(loggin) {
 }
 
 module.exports = plugin;
+module.exports.WsNotifier = WsNotifier;

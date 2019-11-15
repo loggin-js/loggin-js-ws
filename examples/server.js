@@ -1,18 +1,7 @@
-const WsNotifier = require('../src/ws-notifier');
-const loggin = require('loggin-js');
-
-async function main() {
-    let notifier = new WsNotifier({ autostart: false });
-    await notifier.startServer();
-
-    let logger = loggin.logger({
-        notifiers: [notifier]
+const io = require('socket.io')();
+io.on('connection', client => {
+    client.on('loggin-js:log', data => {
+        console.log(data);
     });
-
-    setTimeout(() => {
-        setInterval(() => {
-            logger.debug('Test');
-        }, 3000);
-    }, 10000);
-}
-main();
+});
+io.listen(3000);
