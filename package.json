@@ -1,10 +1,10 @@
 {
-  "name": "loggin-ws",
+  "name": "loggin-js-ws",
   "version": "0.0.1",
   "description": "",
   "main": "./src/loggin-ws.js",
   "scripts": {
-    "release": "standard-version"
+    "release": "standard-version && git push --follow-tags origin master && npm publish"
   },
   "author": {
     "name": "nombrekeff",
