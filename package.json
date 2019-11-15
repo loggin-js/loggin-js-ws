@@ -1,10 +1,10 @@
 {
   "name": "loggin-ws",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "",
   "main": "./src/loggin-ws.js",
   "scripts": {
-    "release": "standar-version"
+    "release": "standard-version"
   },
   "author": {
     "name": "nombrekeff",
