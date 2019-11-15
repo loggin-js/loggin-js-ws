@@ -1,5 +1,3 @@
-# loggin-js-ws <!-- omit in toc -->
-
 [![NPM version][npm-image]][npm-url]
 [![NPM quality][code-quality-badge]][code-quality-link]
 [![Downloads][downloads-badge]][downloads-link]
