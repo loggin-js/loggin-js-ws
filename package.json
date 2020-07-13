@@ -23,6 +23,6 @@
     "socket.io-client": "^2.3.0"
   },
   "devDependencies": {
-    "standard-version": "^7.0.0"
+    "standard-version": "^8.0.1"
   }
 }
