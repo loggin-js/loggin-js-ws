@@ -34,11 +34,6 @@ A websocket client notifier for <a href="https://github.com/loggin-js/loggin-js"
 
 ****
 
-> ### !! NOTICE !!
-> This plugin is still in it's early stages, and the API may change or have errors. 
-> If you find any errors or have sugestions please [leave an issue](https://github.com/nombrekeff/loggin-js-ws/issues/new)
-
-****
 
 ## Table Of Content <!-- omit in toc -->
 - [Installing](#installing)
